@@ -2,20 +2,20 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <c:set var="ctp" value="${pageContext.request.contextPath}" />
 
-<div id="header" class="jumbotron text-center" style="margin-bottom:0; background-image: url('${pageContext.request.contextPath}/images/112.jpg')">
-  <h1>준비중</h1>
+<div id="header" class="jumbotron text-center" style="margin-bottom:0; background : url('${pageContext.request.contextPath}/images/back2.jpg') no-repeat center center / cover;">
+
   <%-- <p>(완공 D-${dday})</p>  --%>
   <p id="completion"></p> 
   
   
 </div>
 <script>
-  $(function() {
+/*   $(function() {
 	  $("#header").on("click",function(){
-		  location.href = "http://192.168.50.52:9090/javaclass/Main";
+		  location.href = "http://192.168.50.52:9090/javaclassJ2/WorldLogin";
 	  });
   });
-  
+   */
   
   $(document).ready(function() {
  	 	var currentDate = new Date();

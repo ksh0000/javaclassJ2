@@ -6,17 +6,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Insert</title>
-  <%@ include file = "/include/bs4.jsp" %>
+  <title>adminMain.jsp</title>
+  <frameset cols="130px, *">
+    <frame src="AdminLeft.ad" name="adminLeft" frameborder="0" />
+    <frame src="AdminContent.ad" name="adminContent" frameborder="0" />
+  </frameset>
 </head>
 <body>
-<jsp:include page="/include/header.jsp" />
-<jsp:include page="/include/nav.jsp" />
-<p><br/></p>
-<div class="container">
-  
-</div>
-<p><br/></p>
-<jsp:include page="/include/footer.jsp" />
 </body>
 </html>

@@ -2,5 +2,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <c:set var="ctp" value="${pageContext.request.contextPath}" />
 <script>
-  location.href = "${ctp}/Main";
+  location.href = "${ctp}/WorldLogin";
 </script>
